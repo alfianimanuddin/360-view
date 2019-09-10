@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#photosphere {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    .psv{
+      &-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &-loader{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .loader-canvas{
+          display: none;
+        }
+      }
+      // &-navbar{
+      //   position: absolute;
+      //   z-index: 100;
+      //   bottom: 0;
+      //   width: 100%;
+      //   background: rgba(61,61,61,.5);
+      //   .autorotate-button{
+      //     width: 20px;
+      //   }
+      //   .psv-button{
+      //     float: left;
+      //     padding: 10px;
+      //     position: relative;
+      //     cursor: pointer;
+      //     height: 20px;
+      //     background: 0 0;
+      //     &.active{
+      //       background: rgba(255,255,255,.1);
+      //     }
+      //   }
+      // }
+    }
+}
